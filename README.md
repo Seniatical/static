@@ -34,7 +34,7 @@ def pythagoras(a: int, b: int, *, are_squared: bool = False) -> int:
 
 ### Enforcing return types
 To enforce the return type of your function use the `@enforce_return` decorator.\
-If your function doesn't return the type you specified it will raise an error.
+If your function doesn't return the type you specified when you call the function, it will raise an error.
 ```py
 from static.decorators import enforce_return, static
 
